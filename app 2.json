@@ -13,15 +13,13 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "y"
+      "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      },
-      "package": "com.maxousource.fcs"
+      }
     },
     "web": {
       "bundler": "metro",
@@ -33,11 +31,6 @@
     ],
     "experiments": {
       "typedRoutes": true
-    },
-    "extra": {
-      "eas": {
-        "projectId": "37f5c1d6-e6f9-44e2-8506-ca506ea36363"
-      }
     }
   }
 }
